@@ -1,0 +1,7 @@
+C:\Users\WeCanCodeIT\source\repos\Luckynumbers1\Luckynumbers1\obj\Debug\Luckynumbers1.csprojAssemblyReference.cache
+C:\Users\WeCanCodeIT\source\repos\Luckynumbers1\Luckynumbers1\obj\Debug\Luckynumbers1.csproj.CoreCompileInputs.cache
+C:\Users\WeCanCodeIT\source\repos\Luckynumbers1\Luckynumbers1\bin\Debug\Luckynumbers1.exe.config
+C:\Users\WeCanCodeIT\source\repos\Luckynumbers1\Luckynumbers1\bin\Debug\Luckynumbers1.exe
+C:\Users\WeCanCodeIT\source\repos\Luckynumbers1\Luckynumbers1\bin\Debug\Luckynumbers1.pdb
+C:\Users\WeCanCodeIT\source\repos\Luckynumbers1\Luckynumbers1\obj\Debug\Luckynumbers1.exe
+C:\Users\WeCanCodeIT\source\repos\Luckynumbers1\Luckynumbers1\obj\Debug\Luckynumbers1.pdb
