@@ -76,43 +76,40 @@ namespace Luckynumbers1CW
                 iGuesses[iCount] = iGuess;
                 iSortedGuesses[iCount] = iGuess;
             }
-           
-            Array.Sort(iSortedGuesses); // sort the guesses here for printing to the console
 
-            Console.WriteLine();
-            Console.WriteLine("The random numbers are    : " + iNum1 + ", " + iNum2 + ", " + iNum3+", " + iNum4 + ", " + iNum5 + ", " + iNum6);
-            Console.WriteLine("The numbers you chose are : " + iGuesses[0] + ", " + iGuesses[1] + ", " + iGuesses[2] + "," + iGuesses[4] + ", " + iGuesses[5] + ", " + iGuesses[6]);
-            Console.WriteLine();
+            //        Array.Sort(iSortedGuesses); // sort the guesses here for printing to the console
 
-            if (iGuesses[0] == iNum1 && iGuesses[1] == iNum2 && iGuesses[2] == iNum3)
-            {
-                Console.WriteLine("you won $" + iMATCHFOUR);
-            }
+            //        Console.WriteLine();
+            //        Console.WriteLine("The random numbers are    : " + iNum1 + ", " + iNum2 + ", " + iNum3+", " + iNum4 + ", " + iNum5 + ", " + iNum6);
+            //        Console.WriteLine("The numbers you chose are : " + iGuesses[0] + ", " + iGuesses[1] + ", " + iGuesses[2] + "," + iGuesses[4] + ", " + iGuesses[5] + ", " + iGuesses[6]);
+            //        Console.WriteLine();
 
-            else if (iSortedGuesses[0] == iSortedNums[0] && iSortedGuesses[1] == iSortedNums[1]
-            && iSortedGuesses[2] == iSortedNums[2])
-            {
-                Console.WriteLine("you won $" + iMATCHTHREE);
-            }
+            //        if (iGuesses[0] == iNum1 && iGuesses[1] == iNum2 && iGuesses[2] == iNum3)
+            //        {
+            //            Console.WriteLine("you won $" + iMATCHFOUR);
+            //        }
 
-            else if ((iGuesses[0] == iNum1 && iGuesses[1] == iNum2) || (iGuesses[1] == iNum2 &&
+            //        else if (iSortedGuesses[0] == iSortedNums[0] && iSortedGuesses[1] == iSortedNums[1]&& iSortedGuesses[2] == iSortedNums[2])
+            //        {
+            //            Console.WriteLine("you won $" + iMATCHTHREE);
+            //        }
 
-iGuesses[2] == iNum3))
-            {
-                Console.WriteLine("you won $" + iMATCHTWO);
-            }
+            //        else if ((iGuesses[0] == iNum1 && iGuesses[1] == iNum2) || (iGuesses[1] == iNum2 && iGuesses[2] == iNum3))
+            //        {
+            //            Console.WriteLine("you won $" + iMATCHTWO);
+            //        }
 
-            else if (iGuesses[0] == iNum1 || iGuesses[1] == iNum2 || iGuesses[2] == iNum3)
-            {
-                Console.WriteLine("you won $" + iMATCHONE);
-            }
+            //        else if (iGuesses[0] == iNum1 || iGuesses[1] == iNum2 || iGuesses[2] == iNum3)
+            //        {
+            //            Console.WriteLine("you won $" + iMATCHONE);
+            //        }
 
-            else
-            {
-                Console.WriteLine("sorry, you didn't win anything");
-            }
+            //        else
+            //        {
+            //            Console.WriteLine("sorry, you didn't win anything");
+            //        }
 
-            Console.ReadKey();
+           // Console.ReadKey();
         }
 
     }
